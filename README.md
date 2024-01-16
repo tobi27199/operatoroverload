@@ -1,4 +1,4 @@
-Die **Operatorüberladung** in C++ ermöglicht es, `Operatoren` wie `+, -, *, /` und andere für benutzerdefinierte Datentypen (`Klassen`) zu definieren. Dies erlaubt es, objektorientierten Code lesbarer und intuitiver zu gestalten, indem sich Operationen auf Objekte von benutzerdefinierten Klassen genauso verwenden lassen wie auf den eingebauten Datentypen. Dieses Beispiel zeigt alle möglichen Operatorüberladungen in C++. *(noch nicht Vollständig!)*
+Die **Operatorüberladung** in C++ ermöglicht es, `Operatoren` wie `+, -, *, /` und andere für benutzerdefinierte Datentypen (`Objekte von Klassen`) zu definieren. Dies erlaubt es, objektorientierten Code lesbarer und intuitiver zu gestalten, indem sich Operationen auf Objekte von benutzerdefinierten Klassen genauso verwenden lassen wie auf den eingebauten Datentypen. Dieses Beispiel zeigt alle möglichen Operatorüberladungen in C++. *(noch nicht Vollständig!)*
 
 
 ## Alle Beispiele basieren auf dieser Klasse:
