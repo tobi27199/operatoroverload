@@ -91,7 +91,7 @@ class Messwert{
         return *this;
     }
     
-    // Postfix Operatorüberladung
+    // Postfix
     Messwert operator++(int){
         Messwert temp = *this;
         messwert++;
