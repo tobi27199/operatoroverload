@@ -24,7 +24,7 @@ Das `+` kann dabei durch die Operatoren `(-, *, /, %)` ersetzt werden.
 Die `Präfix`  Operatoren können wie folgt überschrieben werden:
 ```c++
 Messwert operator++(){
-messwert++;
+++messwert;
 return *this;
 }
 ```
@@ -37,6 +37,7 @@ return temp;
 }
 ```
 `Plus (++)` kann auch durch `Minus (--)` ersetzt werden.
+Die Verwendung von *this ermöglicht es, das aktuelle Objekt zu modifizieren und es als Ergebnis der Operation zurückzugeben. Die Verwendung von `*this` ist spezifisch für die Überladung von Präfix-Operatoren wie ++, da diese Operatoren auf dem aktuellen Objekt arbeiten und es möglicherweise ändern müssen.
 
 
 ## 3. Vergleichsoperatoren
